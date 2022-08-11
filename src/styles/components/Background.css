@@ -1,0 +1,25 @@
+.image_container {
+    width: 33.5%;
+    height: 108%;
+    position: absolute;
+    top: 50px;
+    overflow: hidden;
+}
+
+.image2_container {
+    margin-left: 33.5%;
+    width: 33.5%;
+    height: 108%;
+    position: absolute;
+    top: 50px;
+    overflow: hidden;
+}
+
+.image3_container {
+    margin-left: 67%;
+    width: 33.5%;
+    height: 108%;
+    position: absolute;
+    top: 50px;
+    overflow: hidden;
+}

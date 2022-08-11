@@ -4,9 +4,13 @@ import React from "react";
 
 import "../styles/components/Navbar.css";
 
+import "../styles/components/Background.css";
+
 // Images
 
 import EpicGamesLogo from "../assets/images/epic-games-logo.png";
+
+import BackgroundImage from "../assets/images/Epic+Games+Node_ue-alt-1920x1080-e653a4a4dae65307fd2420076abe44bb71b22f06.jpg";
 
 const Navbar = () => {
   return (
@@ -34,3 +38,11 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+const Background = () => {
+  return (
+    <div className="background_container">
+      <img className="first_panel" src={BackgroundImage} />
+    </div>
+  );
+};
