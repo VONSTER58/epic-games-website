@@ -16,15 +16,26 @@ import "../styles/components/Background.css";
 
 const Background = () => {
   return ( <>
+  <div className='images'>
     <div className='image_container'>
         <img className="image_panel" src={first_panel} />
     </div>
+    <ul className='unreal_engine'>
+      <li>UNREAL ENGINE</li>
+      </ul>
     <div className='image2_container'>
       <img className="image_panel" src={second_panel} />
     </div>
+    <ul className='fortnite'>
+      <li>FORTNITE</li>
+      </ul>
     <div className='image3_container'>
       <img className="image_panel" src={third_panel} />
     </div>
+    <ul className='rocket_league'>
+      <li>ROCKET LEAGUE</li>
+      </ul>
+  </div>
     
   </>)
 }

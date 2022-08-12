@@ -4,10 +4,12 @@
     position: absolute;
     top: 0%;
     background-color: #2a2a2a;
+    z-index: 99;
 }
 
 .navbar_list {
     font-size: 11px;
+    letter-spacing: 1.05px;
     padding-left: 70px;
     margin: 0%;
     height: 100%;
@@ -52,13 +54,14 @@
 
 .sign-in {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     letter-spacing: 1.05px;
     color: rgb(204 204 204);
     top: -3%;
+    right: 9.5%;
     height: 100%;
-    width: 178%;
+    width: 100%;
     margin: 0%;
     font-size: 11px;
     max-height: 52px;
@@ -68,10 +71,10 @@
 
 .get-epic-games {
     display: flex;
-    font: arial;
     justify-content: center;
     align-items: center;
     letter-spacing: 1.05px;
+    font-family: Arial;
     font-size: 11px;
     font-weight: bold;
     position: absolute;

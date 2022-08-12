@@ -1,25 +1,91 @@
 .image_container {
-    width: 33.5%;
-    height: 108%;
+    width: 33.34%;
+    height: 100%;
+    min-width: 33.34%;
     position: absolute;
-    top: 50px;
+    top: 0px;
+    background-size: cover;
     overflow: hidden;
 }
 
 .image2_container {
-    margin-left: 33.5%;
-    width: 33.5%;
-    height: 108%;
+    margin-left: 33.34%;
+    width: 33.34%;
+    min-width: 33.34%;
+    height: 100%;
     position: absolute;
-    top: 50px;
+    top: 0px;
+    background-size: cover;
     overflow: hidden;
 }
 
 .image3_container {
-    margin-left: 67%;
-    width: 33.5%;
-    height: 108%;
+    margin-left: 66.68%;
+    width: 33.34%;
+    min-width: 33.34%;
+    height: 100%;
     position: absolute;
-    top: 50px;
+    top: 0px;
+    background-size: cover;
     overflow: hidden;
+}
+
+.unreal_engine {
+    font-size: 49px;
+    font-family: Arial, Helvetica, "sans-serif";
+    color: #ffff;
+    font-weight: 600;
+    text-align: left;
+    list-style: none;
+    position: absolute;
+    display: flex;
+    line-height: .875em;
+    text-transform: uppercase;
+    margin-top: 0;
+    width: auto;
+    vertical-align: top;
+    padding: 8vh 3.125rem;
+    bottom: 5.5%;
+    left: 3%;
+    right: 0;
+}
+
+.fortnite {
+    font-size: 49px;
+    font-family: Arial, Helvetica, "sans-serif";
+    color: #ffff;
+    font-weight: 600;
+    text-align: left;
+    list-style: none;
+    position: absolute;
+    display: flex;
+    line-height: .875em;
+    text-transform: uppercase;
+    margin-top: 0;
+    width: auto;
+    vertical-align: top;
+    padding: 8vh 3.125rem;
+    bottom: 5.5%;
+    left: 36%;
+    right: 0;
+}
+
+.rocket_league {
+    font-size: 49px;
+    font-family: Arial, Helvetica, "sans-serif";
+    color: #ffff;
+    font-weight: 600;
+    text-align: left;
+    list-style: none;
+    position: absolute;
+    display: flex;
+    line-height: .875em;
+    text-transform: uppercase;
+    margin-top: 0;
+    width: auto;
+    vertical-align: top;
+    padding: 8vh 3.125rem;
+    bottom: 5.5%;
+    left: 69%;
+    right: 0;
 }

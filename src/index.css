@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Open Sans'!important;
+  font-family: 'Open Sans', arial !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
