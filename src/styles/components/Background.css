@@ -1,91 +1,48 @@
+.banner_container {
+    height: calc(100vh - 50px);
+    width: 100%;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    background-color: black;
+}
+
 .image_container {
-    width: 33.34%;
     height: 100%;
-    min-width: 33.34%;
-    position: absolute;
-    top: 0px;
-    background-size: cover;
+    width: 33.33%;
     overflow: hidden;
 }
 
-.image2_container {
-    margin-left: 33.34%;
-    width: 33.34%;
-    min-width: 33.34%;
+.banner_image {
     height: 100%;
-    position: absolute;
-    top: 0px;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.image3_container {
-    margin-left: 66.68%;
-    width: 33.34%;
-    min-width: 33.34%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.unreal_engine {
-    font-size: 49px;
-    font-family: Arial, Helvetica, "sans-serif";
-    color: #ffff;
-    font-weight: 600;
-    text-align: left;
-    list-style: none;
-    position: absolute;
-    display: flex;
-    line-height: .875em;
-    text-transform: uppercase;
-    margin-top: 0;
     width: auto;
-    vertical-align: top;
-    padding: 8vh 3.125rem;
-    bottom: 5.5%;
-    left: 3%;
-    right: 0;
+    transition: all 0.3s ease-in-out;
+    opacity: 80%;
+    transform: scale(1.2) translate(130px,0px);
 }
 
-.fortnite {
-    font-size: 49px;
-    font-family: Arial, Helvetica, "sans-serif";
-    color: #ffff;
-    font-weight: 600;
-    text-align: left;
-    list-style: none;
-    position: absolute;
-    display: flex;
-    line-height: .875em;
-    text-transform: uppercase;
-    margin-top: 0;
-    width: auto;
-    vertical-align: top;
-    padding: 8vh 3.125rem;
-    bottom: 5.5%;
-    left: 36%;
-    right: 0;
+.banner_image:hover {
+    transform: scale(1.27) translate(130px,0px);
+    opacity: 100%;
 }
 
-.rocket_league {
-    font-size: 49px;
-    font-family: Arial, Helvetica, "sans-serif";
-    color: #ffff;
-    font-weight: 600;
-    text-align: left;
-    list-style: none;
+.banner_title {
     position: absolute;
+    font-family: 'Open Sans';
     display: flex;
-    line-height: .875em;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    color: #FFFF;
+    font-weight: 700;
+    font-size: 48px;
     text-transform: uppercase;
-    margin-top: 0;
-    width: auto;
-    vertical-align: top;
-    padding: 8vh 3.125rem;
-    bottom: 5.5%;
-    left: 69%;
-    right: 0;
+    bottom: 20%;
+    left: auto;
+    z-index: 2;
+    transform: scale(1) translate(100px,0px);
 }
